@@ -11,11 +11,15 @@ pulse (relais give a pulse of about 200ms)
 Examples
 
 Switch on and off the first relais.
+<br>
 ./serialSwitch --d /dev/ttysUSB0 --c 1 --a on
+<br>
 ./serialSwitch --d /dev/ttysUSB0 --c 1 --a off
 
 Switch on and leave the second relais.
+<br>
 ./serialSwitch --d /dev/ttysUSB0 --c 2 --a toggle
 
 Give a 200ms pulse on fourth relais.
+<br>
 ./serialSwitch --d /dev/ttysUSB0 --c 4 --a pulse
