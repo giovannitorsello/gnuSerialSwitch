@@ -23,3 +23,10 @@ Switch on and leave the second relais.
 Give a 200ms pulse on fourth relais.
 <br>
 ./serialSwitch --d /dev/ttysUSB0 --c 4 --a pulse
+
+<strong>BOARD TYPES EXAMPLE</strong>
+![Board sample](https://ae01.alicdn.com/kf/HLB1kTXhNXYqK1RjSZLeq6zXppXao/1-pz-DC12V-4-canali-RS232-scheda-rel-PC-USB-UART-DB9-interruttore-di-controllo-remoto.jpg_Q90.jpg_.webp "Working board examples")
+
+<p>
+Others board can be supported changing switch_codes.h that contains exadecimal strings for relais board command.
+</p>
