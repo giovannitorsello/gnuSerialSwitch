@@ -8,6 +8,15 @@ on/off (switch on or off the channel)
 toggle (alternative change status of the channel)
 pulse (relais give a pulse of about 200ms)
 
+<p>To build executable simply doing</p>
+<code>make</code>
+
+<p>To install in /usr/local/bin (root privileges required)</p>
+<code>make install</code>
+
+<p>To uninstall (root privileges required)</p>
+<code>make uninstall</code>
+
 Examples
 
 Switch on and off the first relais.
